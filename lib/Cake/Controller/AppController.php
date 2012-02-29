@@ -18,7 +18,21 @@
  * @package       Cake.Controller
  * @since         CakePHP(tm) v 0.2.9
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
- */
+* * /**
+   * CakePHP Component & Model Code Completion
+   * ==============================================
+   * CakePHP Core Components
+   * ==============================================
+   * @property AuthComponent $Auth
+   * @property AclComponent $Acl
+   * @property CookieComponent $Cookie
+   * @property EmailComponent $Email
+   * @property RequestHandlerComponent $RequestHandler
+   * @property SecurityComponent $Security
+   * @property SessionComponent $Session
+   */ 
+
+*/
 
 App::uses('Controller', 'Controller');
 
