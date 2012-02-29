@@ -1,18 +1,18 @@
-This fork of CakePHP  has been modified to natively provide Model, Controller and Helpers auto-completion in PHPStorm.
+###This fork of CakePHP  has been modified to natively provide Model, Controller and Helpers auto-completion in [PHPStorm] (http://www.jetbrains.com/phpstorm/).
 
-The following [slight] manual modification will still need to be done:
+##The following [slight] manual modification will still need to be done:
 
-After creating a file, add the following to the header:
+##After creating a file, add the following to the header:
 
-For Models:
-```php
+##For Models:
+```
  /**
  *@property ModelName $ModelName
  */
 ```
 
-For Views:
-```php
+##For Views:
+```
 /**
  *@var $this View
  */
@@ -44,5 +44,5 @@ CakePHP TV - screen casts from events and video tutorials
 CakePHP Google Group - community mailing list and forum
 <http://groups.google.com/group/cake-php>
 
-#cakephp on irc.freenode.net - chat with CakePHP developers
+cakephp on irc.freenode.net - chat with CakePHP developers
 <irc://irc.freenode.net/cakephp>
