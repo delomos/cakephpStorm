@@ -32,8 +32,6 @@
    * @property SessionComponent $Session
    */ 
 
-*/
-
 App::uses('Controller', 'Controller');
 
 /**
